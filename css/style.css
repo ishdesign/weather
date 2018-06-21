@@ -22,11 +22,12 @@ h1, h2, h3, h4, h5, h6{
 }
 /* 섹션 1 콘텐츠 레이아웃 */
 .section1{
-  background: pink;
   display: grid;
   grid-template-columns: repeat(12, 65px);
   grid-template-rows: auto auto;
   grid-column-gap: 20px;
+  position: relative;
+  justify-content: center;
   /* grid-column-gap */
   font-size:1em;
   font-weight: normal;
@@ -66,5 +67,6 @@ h1, h2, h3, h4, h5, h6{
   grid-row: 2/3;
 }
 .img-wrapper img{
-  max-width: 
+  max-width: 100%;
+  height: auto; 
 }
